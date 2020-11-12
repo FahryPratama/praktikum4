@@ -1,0 +1,28 @@
+class DemoIfElse{
+public static void main(String [] args){
+double nilaiInput;
+System.out.println("\nPORGRAM DEMO IF ELSE");
+System.out.println("--------------------|n");
+System.out.print("Masukkan Nilai [0 - 100]: ");
+nilaiInput = InputConsole.readDouble();
+if (nilaiInput < 0) | (nilaiInput > 100)){
+System.out.println("Data input invalid !");
+}
+else {
+if (nilaiInput >= 60)
+{
+System.out.println("\nSelamat,kita lulus mata kuliah ini.");
+if (nilaiInput >= 85)
+System.out.println("\nNilai kita : A");
+else if (nilaiInput >= 70)
+System.out.println("\nNilai kita : B");
+else if (nilaiInput >= 60)
+System.out.println("\nNilai kita : C");
+}
+else {
+System.out.println("\nMaaf, kita harus mengulang mata kuliah ini
+kembali, atau mengikuti ujian perbaikan dengan nilai maksimum C");
+}
+}
+}
+}
